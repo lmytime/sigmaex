@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='sigmaex',
-    version='0.1.1',
+    version='0.1.2',
     description='A python package for checking the gaussian histogram of data array.',
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
@@ -16,7 +16,8 @@ setup(
         'scipy',
         'astropy',
         'tifffile',
-        'matplotlib'
+        'matplotlib',
+        'lmfit'
     ],
     classifiers=[
         'Programming Language :: Python :: 3',
