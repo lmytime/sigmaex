@@ -1,5 +1,5 @@
 # SigmaEx
-<img src="./icon.jpg" alt="SigmaEx Logo" style="width:100px"></img>
+<img src="https://github.com/lmytime/sigmaex/blob/main/icon.jpg?raw=true" alt="SigmaEx Logo" style="width:100px"></img>
 
 SigmaEx is a Python package for analyzing and visualizing the Gaussian distribution of data arrays. It allows for sigma clipping, histogram analysis, and Gaussian fitting, with a variety of modes for customized data selection.
 
@@ -8,7 +8,7 @@ SigmaEx is optimized for the following cases:
 - Estimate the pixel-to-pixel noise of an astronomical image
 - Modeling the distribution of a series of Gaussian-like data
 
-<img src="./sigmaex.jpg" alt="Example Output of SigmaEx"></img>
+<img src="https://github.com/lmytime/sigmaex/blob/main/sigmaex.jpg?raw=true" alt="Example Output of SigmaEx"></img>
 
 ## Features
 
