@@ -10,7 +10,7 @@
 import numpy as np
 import matplotlib
 import matplotlib.pyplot as plt
-from scipy.optimize import curve_fit
+# from scipy.optimize import curve_fit
 from astropy.stats import sigma_clip
 from astropy.io import fits
 import tifffile as tiff
@@ -21,7 +21,7 @@ import time
 
 class SigmaEx:
     def __init__(self, data, sigma=3, mode="1sigma", nbins=200, xmin=None, xmax=None, sample=1e7, path=None):
-        self.data = data
+        self.data = np.array(data)
         self.sigma = sigma
         self.mode = mode
         self.nbins = nbins
